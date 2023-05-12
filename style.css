@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* ! GOOGLE FONT */
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+#slider {
+  display: flex;
+}
+/* slider button */
+#slider button {
+  top: 15%;
+  z-index: 999;
+}
+#prev {
+  left: 2%;
+}
+#next {
+  right: 2%;
+}
+
+/* .showImg {
+  transform: translateX(0);
+}
+.hideImg {
+  transform: translateX(100%);
+}
+
+img {
+  max-width: none;
+} */
+/* .demo1,
+.demo2,
+.demo3{
+  display: none;
+} */
